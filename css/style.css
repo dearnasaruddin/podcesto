@@ -4,3 +4,78 @@
 /* ======================== Common CSS Start ======================== */
 
 /* ======================== Common CSS End ======================== */
+/* ================================= makes us start ======================  */
+#make_us{
+    padding-top: 114px;
+    padding-bottom: 48px;
+}
+
+.make_us_left h4{
+    color:  #13132C;
+    font-family: "Commissioner", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px; 
+    text-transform: capitalize;
+
+}
+
+.make_us_left p{
+    color:  #898998;
+    font-family: "Commissioner", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    padding-right: 130px;
+    /* margin-top: 16px;
+    margin-bottom: 32px; */
+
+}
+
+.make_us_left li{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-bottom: 14px;
+}
+.make_us_left_check{
+   width: 18px;
+   height: 18px;
+   background: #F18701;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   border-radius: 50%;
+   font-size: 7px;
+}
+
+.make_us_left_check span{
+    color: #13132C;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Commissioner", sans-serif;
+}
+.make_us_left_button button{
+    margin-top: 12px;
+    padding: 16px 32px;
+    background: #7678ED;
+    font-family: "Commissioner", sans-serif;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 1px solid #7678ED;
+    transition: all linear 0.3s;
+
+}
+
+.make_us_left_button button:hover{
+    background: #6062c9; 
+ }
+
+ .make_us_right img{
+    width: 100%;
+ }
+/* ================================= makes us end ========================  */
