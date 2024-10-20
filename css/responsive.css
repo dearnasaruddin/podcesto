@@ -48,11 +48,30 @@
 	font-size: 36px;
 
 }
+/* ====================== Make Us start============= >=575px ============== */
+.make_us_left h4 {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.make_us_left p {
+    padding-right: 0;
+    text-align: center;
+}
+.make_us_list-service{
+	display: flex;
+	justify-content: center;
+}
+.make_us_left_button{
+	text-align: center;
+}
 }
 
 
 
-/* // Small devices (landscape phones, 576px and up) */
+/* =============================================================// Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) {
     .navbar-toggler {
         border: none
@@ -103,13 +122,32 @@
 	font-size: 36px;
 
 }
+/* ====================================== Make Us start============= 576px and up ============== */
+.make_us_left h4 {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.make_us_left p {
+	padding-right: 0;
+    text-align: center;
+}
+.make_us_list-service{
+	display: flex;
+	justify-content: center;
+}
+.make_us_left_button{
+	text-align: center;
+}
  }
 
 
 
 
 
-/* // Medium devices (tablets, 768px and up) */
+/* ============================================================// Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) { 
     .navbar-toggler {
         border: none
@@ -161,5 +199,24 @@
 .number_users strong {
 	font-size: 36px;
 
+}
+/* ====================================== Make Us start============= 576px an up ============== */
+.make_us_left h4 {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.make_us_left p {
+	padding-left: 130px;
+    text-align: center;
+}
+.make_us_list-service{
+	display: flex;
+	justify-content: center;
+}
+.make_us_left_button{
+	text-align: center;
 }
  }
