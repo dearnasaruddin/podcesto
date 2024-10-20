@@ -48,11 +48,54 @@
 	font-size: 36px;
 
 }
+/* ====================== Make Us start============= >=575px ============== */
+.make_us_left h4 {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.make_us_left p {
+    padding-right: 0;
+    text-align: center;
+}
+.make_us_list-service{
+	display: flex;
+	justify-content: center;
+}
+.make_us_left_button{
+	text-align: center;
+}
+/* ====================== Plan start============= >=575px ============== */
+#plan {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.plan_header h4 {
+    font-size: 25px;
+    line-height: 36px;
+}
+.plan_header p {
+	margin-top: 16px;
+    font-size: 13px;
+    margin: 0 0;
+}
+.plan_button {
+    margin-top: 24px;
+}
+.plan_service_parent {
+    margin-top: 32px;
+}
+.plan_service{
+	margin-bottom: 24px;
+}
 }
 
 
 
-/* // Small devices (landscape phones, 576px and up) */
+/* =============================================================// Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) {
     .navbar-toggler {
         border: none
@@ -103,13 +146,56 @@
 	font-size: 36px;
 
 }
- }
+/* ====================================== Make Us start============= 576px and up ============== */
+.make_us_left h4 {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.make_us_left p {
+	padding-right: 0;
+    text-align: center;
+}
+.make_us_list-service{
+	display: flex;
+	justify-content: center;
+}
+.make_us_left_button{
+	text-align: center;
+}
+/* ====================== Plan start============= >=575px ============== */
+#plan {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.plan_header h4 {
+    font-size: 25px;
+    line-height: 36px;
+}
+.plan_header p {
+	margin-top: 16px;
+    font-size: 13px;
+    margin: 0 0;
+}
+.plan_button {
+    margin-top: 24px;
+}
+.plan_service_parent {
+    margin-top: 32px;
+}
+.plan_service{
+	margin-bottom: 24px;
+}
+}
 
 
 
 
 
-/* // Medium devices (tablets, 768px and up) */
+/* ============================================================// Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) { 
     .navbar-toggler {
         border: none
@@ -162,4 +248,47 @@
 	font-size: 36px;
 
 }
- }
+/* ====================================== Make Us start============= 576px an up ============== */
+.make_us_left h4 {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.make_us_left p {
+	padding-left: 130px;
+    text-align: center;
+}
+.make_us_list-service{
+	display: flex;
+	justify-content: center;
+}
+.make_us_left_button{
+	text-align: center;
+}
+/* ====================== Plan start============= >=575px ============== */
+#plan {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.plan_header h4 {
+    font-size: 25px;
+    line-height: 36px;
+}
+.plan_header p {
+	margin-top: 16px;
+    font-size: 13px;
+    margin: 0 0;
+}
+.plan_button {
+    margin-top: 24px;
+}
+.plan_service_parent {
+    margin-top: 32px;
+}
+.plan_service{
+	margin-bottom: 24px;
+}
+}
