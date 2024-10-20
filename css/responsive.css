@@ -67,6 +67,30 @@
 .make_us_left_button{
 	text-align: center;
 }
+/* ====================== Plan start============= >=575px ============== */
+#plan {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.plan_header h4 {
+    font-size: 25px;
+    line-height: 36px;
+}
+.plan_header p {
+	margin-top: 16px;
+    font-size: 13px;
+    margin: 0 0;
+}
+.plan_button {
+    margin-top: 24px;
+}
+.plan_service_parent {
+    margin-top: 32px;
+}
+.plan_service{
+	margin-bottom: 24px;
+}
 }
 
 
@@ -141,7 +165,31 @@
 .make_us_left_button{
 	text-align: center;
 }
- }
+/* ====================== Plan start============= >=575px ============== */
+#plan {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.plan_header h4 {
+    font-size: 25px;
+    line-height: 36px;
+}
+.plan_header p {
+	margin-top: 16px;
+    font-size: 13px;
+    margin: 0 0;
+}
+.plan_button {
+    margin-top: 24px;
+}
+.plan_service_parent {
+    margin-top: 32px;
+}
+.plan_service{
+	margin-bottom: 24px;
+}
+}
 
 
 
@@ -219,4 +267,28 @@
 .make_us_left_button{
 	text-align: center;
 }
- }
+/* ====================== Plan start============= >=575px ============== */
+#plan {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.plan_header h4 {
+    font-size: 25px;
+    line-height: 36px;
+}
+.plan_header p {
+	margin-top: 16px;
+    font-size: 13px;
+    margin: 0 0;
+}
+.plan_button {
+    margin-top: 24px;
+}
+.plan_service_parent {
+    margin-top: 32px;
+}
+.plan_service{
+	margin-bottom: 24px;
+}
+}
