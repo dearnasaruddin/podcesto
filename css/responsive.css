@@ -1,165 +1,170 @@
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 
-@media (max-width: 575px) { 
-    .navbar-toggler {
-        border: none
- }
+@media (max-width: 575px) {
+	.navbar-toggler {
+		border: none
+	}
 
- .navbar-toggler:focus {
-	box-shadow: none;
-}
+	.navbar-toggler:focus {
+		box-shadow: none;
+	}
 
-.banner_right {
-    width: 275px;
-	height: 256px;
-    margin-left: auto;
-}
+	.banner_right {
+		width: 275px;
+		height: 256px;
+		margin-left: auto;
+	}
 
-.banner_feature {
-    transform: scale(0.7);
-	top: 12%;
-}
-.banner_left h1 {
-	font-size: 28px;
-	line-height: 36px;
-    margin-top: 24px;
-	
-}
+	.banner_feature {
+		transform: scale(0.7);
+		top: 12%;
+	}
 
-.banner_left p {
-	font-size: 13px;
-	line-height: 24px;
-    padding-right: 0;
-	
-}
+	.banner_left h1 {
+		font-size: 28px;
+		line-height: 36px;
+		margin-top: 24px;
 
-.banner_button {
-	margin-top: 26px;
-	display: flex;
-	column-gap: 16px;
-	justify-content: center;
-}
+	}
 
-.number_users {
-	justify-content: center;
-}
-.number_users strong {
-	font-size: 36px;
+	.banner_left p {
+		font-size: 13px;
+		line-height: 24px;
+		padding-right: 0;
 
-}
+	}
+
+	.banner_button {
+		margin-top: 26px;
+		display: flex;
+		column-gap: 16px;
+		justify-content: center;
+	}
+
+	.number_users {
+		justify-content: center;
+	}
+
+	.number_users strong {
+		font-size: 36px;
+
+	}
 }
 
 
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) {
-    .navbar-toggler {
-        border: none
- }
+	.navbar-toggler {
+		border: none
+	}
 
- .navbar-toggler:focus {
-	box-shadow: none;
-}
+	.navbar-toggler:focus {
+		box-shadow: none;
+	}
 
-#banner {
-	padding-top: 2px;
-}
+	#banner {
+		padding-top: 2px;
+	}
 
-.banner_right {
-	height: 256px;
+	.banner_right {
+		height: 256px;
 
-}
+	}
 
-.banner_feature {
-    transform: scale(0.7);
-	top: 12%;
-}
-.banner_left h1 {
-	font-size: 28px;
-	line-height: 36px;
-    margin-top: 24px;
-	
-}
+	.banner_feature {
+		transform: scale(0.7);
+		top: 12%;
+	}
 
-.banner_left p {
-	font-size: 13px;
-	line-height: 24px;
-    padding-right: 0;
-	
-}
+	.banner_left h1 {
+		font-size: 28px;
+		line-height: 36px;
+		margin-top: 24px;
 
-.banner_button {
-	margin-top: 26px;
-	display: flex;
-	column-gap: 16px;
-	justify-content: center;
-}
+	}
 
-.number_users {
-	justify-content: center;
-}
-.number_users strong {
-	font-size: 36px;
+	.banner_left p {
+		font-size: 13px;
+		line-height: 24px;
+		padding-right: 0;
 
+	}
+
+	.banner_button {
+		margin-top: 26px;
+		display: flex;
+		column-gap: 16px;
+		justify-content: center;
+	}
+
+	.number_users {
+		justify-content: center;
+	}
+
+	.number_users strong {
+		font-size: 36px;
+
+	}
 }
- }
 
 
 
 
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) { 
-    .navbar-toggler {
-        border: none
- }
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-toggler {
+		border: none
+	}
 
- .navbar-toggler:focus {
-	box-shadow: none;
+	.navbar-toggler:focus {
+		box-shadow: none;
+	}
+
+	#banner {
+		padding-top: 12px;
+	}
+
+	.banner_right {
+		position: relative;
+		height: 440px;
+		width: 626px;
+		margin-left: auto;
+	}
+
+	.banner_feature {
+		transform: scale(0.8);
+		top: 40%;
+	}
+
+	.banner_left h1 {
+		font-size: 50px;
+		line-height: 60px;
+		margin-top: 26px;
+	}
+
+
+	.banner_left p {
+		font-size: 20px;
+		line-height: 26px;
+		padding-right: 0;
+	}
+
+	.banner_button {
+		margin-top: 26px;
+		display: flex;
+		column-gap: 16px;
+		justify-content: center;
+	}
+
+	.number_users {
+		justify-content: center;
+	}
+
+	.number_users strong {
+		font-size: 36px;
+
+	}
 }
-
-#banner {
-	padding-top: 12px;
-}
-
-.banner_right {
-	position: relative;
-	height: 440px;
-	width: 626px;
-	margin-left: auto;
-}
-
-.banner_feature {
-	transform: scale(0.8);
-	top: 40%;
-}
-
-.banner_left h1{
-    font-size: 50px;
-    line-height: 60px;
-    margin-top: 26px;
-}
-
-
-.banner_left p {
-	font-size: 20px;
-	line-height: 26px;
-	padding-right: 0;
-}
-
-.banner_button {
-	margin-top: 26px;
-	display: flex;
-	column-gap: 16px;
-	justify-content: center;
-}
-
-.number_users {
-	justify-content: center;
-}
-.number_users strong {
-	font-size: 36px;
-
-}
- }
