@@ -50,6 +50,21 @@
 		font-size: 36px;
 
 	}
+
+	.popular-header h4 {
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 36px;
+	}
+
+	.popular-header p {
+		margin-top: 16px;
+		padding: 0;
+	}
+
+	.popular-tabs {
+		margin-top: 24px;
+	}
 }
 
 
