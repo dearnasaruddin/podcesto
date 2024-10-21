@@ -1,432 +1,453 @@
-/* // X-Small devices (portrait phones, less than 576px) */
+/* =============================================================// X-Small devices (portrait phones, less than 576px) */
 
 @media (max-width: 575px) {
-  .navbar-toggler {
-    border: none;
-  }
+	.navbar-toggler {
+		border: none;
+	}
 
-  .navbar-toggler:focus {
-    box-shadow: none;
-  }
+	.navbar-toggler:focus {
+		box-shadow: none;
+	}
 
-  .banner_right {
-    width: 275px;
-    height: 256px;
-    margin-left: auto;
-  }
+	.banner_right {
+		width: 275px;
+		height: 256px;
+		margin-left: auto;
+	}
 
-  .banner_feature {
-    transform: scale(0.7);
-    top: 12%;
-  }
-  .banner_left h1 {
-    font-size: 28px;
-    line-height: 36px;
-    margin-top: 24px;
-  }
+	.banner_feature {
+		transform: scale(0.7);
+		top: 12%;
+	}
 
-  .banner_left p {
-    font-size: 13px;
-    line-height: 24px;
-    padding-right: 0;
-  }
+	.banner_left h1 {
+		font-size: 28px;
+		line-height: 36px;
+		margin-top: 24px;
+	}
 
-  .banner_button {
-    margin-top: 26px;
-    display: flex;
-    column-gap: 16px;
-    justify-content: center;
-  }
+	.banner_left p {
+		font-size: 13px;
+		line-height: 24px;
+		padding-right: 0;
+	}
 
-  .number_users {
-    justify-content: center;
-  }
-  .number_users strong {
-    font-size: 36px;
-  }
-  /* ====================== Make Us start=========================== */
-  .make_us_left h4 {
-    font-size: 28px;
-    line-height: 36px;
-    text-align: center;
-    margin-top: 24px;
-    margin-bottom: 16px;
-  }
-  .make_us_left p {
-    padding-right: 0;
-    text-align: center;
-  }
-  .make_us_list-service {
-    display: flex;
-    justify-content: center;
-  }
-  .make_us_left_button {
-    text-align: center;
-  }
-  /* ====================== Plan start=========================== */
-  #plan {
-    padding-top: 48px;
-    padding-bottom: 48px;
-  }
+	.banner_button {
+		margin-top: 26px;
+		display: flex;
+		column-gap: 16px;
+		justify-content: center;
+	}
 
-  .plan_header h4 {
-    font-size: 25px;
-    line-height: 36px;
-  }
-  .plan_header p {
-    margin-top: 16px;
-    font-size: 13px;
-    margin: 0 0;
-  }
-  .plan_button {
-    margin-top: 24px;
-  }
-  .plan_service_parent {
-    margin-top: 32px;
-  }
-  .plan_service {
-    margin-bottom: 24px;
-  }
+	.number_users {
+		justify-content: center;
+	}
+
+	.number_users strong {
+		font-size: 36px;
+	}
+
+	/* ====================== Make Us start=========================== */
+	.make_us_left h4 {
+		font-size: 28px;
+		line-height: 36px;
+		text-align: center;
+		margin-top: 24px;
+		margin-bottom: 16px;
+	}
+
+	.make_us_left p {
+		padding-right: 0;
+		text-align: center;
+	}
+
+	.make_us_list-service {
+		display: flex;
+		justify-content: center;
+	}
+
+	.make_us_left_button {
+		text-align: center;
+	}
+
+	/* ====================== Plan start=========================== */
+	#plan {
+		padding-top: 48px;
+		padding-bottom: 48px;
+	}
+
+	.plan_header h4 {
+		font-size: 25px;
+		line-height: 36px;
+	}
+
+	.plan_header p {
+		margin-top: 16px;
+		font-size: 13px;
+		margin: 0 0;
+	}
+
+	.plan_button {
+		margin-top: 24px;
+	}
+
+	.plan_service_parent {
+		margin-top: 32px;
+	}
+
+	.plan_service {
+		margin-bottom: 24px;
+	}
+
+	#testimonial {
+		padding-bottom: 80px;
+	}
+
+	.testimonial_header h4 {
+		font-size: 28px;
+		line-height: 36px;
+		text-align: center;
+	}
+
+	.quotation::after {
+		width: 253px;
+	}
+
+	.testimonial_items {
+		margin-bottom: 24px;
+	}
+
+	.testimonial_items p {
+		font-size: 13px;
+	}
+
 }
 
 /* =============================================================// Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) {
-  .navbar-toggler {
-    border: none;
-  }
+	.navbar-toggler {
+		border: none;
+	}
 
-  .navbar-toggler:focus {
-    box-shadow: none;
-  }
+	.navbar-toggler:focus {
+		box-shadow: none;
+	}
 
-  #banner {
-    padding-top: 2px;
-  }
+	#banner {
+		padding-top: 2px;
+	}
 
-  .banner_right {
-    height: 256px;
-  }
+	.banner_right {
+		height: 256px;
+	}
 
-  .banner_feature {
-    transform: scale(0.7);
-    top: 12%;
-  }
-  .banner_left h1 {
-    font-size: 28px;
-    line-height: 36px;
-    margin-top: 24px;
-  }
+	.banner_feature {
+		transform: scale(0.7);
+		top: 12%;
+	}
 
-  .banner_left p {
-    font-size: 13px;
-    line-height: 24px;
-    padding-right: 0;
-  }
+	.banner_left h1 {
+		font-size: 28px;
+		line-height: 36px;
+		margin-top: 24px;
+	}
 
-  .banner_button {
-    margin-top: 26px;
-    display: flex;
-    column-gap: 16px;
-    justify-content: center;
-  }
+	.banner_left p {
+		font-size: 13px;
+		line-height: 24px;
+		padding-right: 0;
+	}
 
-  .number_users {
-    justify-content: center;
-  }
-  .number_users strong {
-    font-size: 36px;
-  }
-  /* ====================================== Make Us start=========================== */
-  .make_us_left h4 {
-    font-size: 28px;
-    line-height: 36px;
-    text-align: center;
-    margin-top: 24px;
-    margin-bottom: 16px;
-  }
-  .make_us_left p {
-    padding-right: 0;
-    text-align: center;
-  }
-  .make_us_list-service {
-    display: flex;
-    justify-content: center;
-  }
-  .make_us_left_button {
-    text-align: center;
-  }
-  /* ====================== Plan start=========================== */
-  #plan {
-    padding-top: 48px;
-    padding-bottom: 48px;
-  }
+	.banner_button {
+		margin-top: 26px;
+		display: flex;
+		column-gap: 16px;
+		justify-content: center;
+	}
 
-  .plan_header h4 {
-    font-size: 25px;
-    line-height: 36px;
-  }
-  .plan_header p {
-    margin-top: 16px;
-    font-size: 13px;
-    margin: 0 0;
-  }
-  .plan_button {
-    margin-top: 24px;
-  }
-  .plan_service_parent {
-    margin-top: 32px;
-  }
-  .plan_service {
-    margin-bottom: 24px;
-  }
+	.number_users {
+		justify-content: center;
+	}
+
+	.number_users strong {
+		font-size: 36px;
+	}
+
+	/* ====================================== Make Us start=========================== */
+	.make_us_left h4 {
+		font-size: 28px;
+		line-height: 36px;
+		text-align: center;
+		margin-top: 24px;
+		margin-bottom: 16px;
+	}
+
+	.make_us_left p {
+		padding-right: 0;
+		text-align: center;
+	}
+
+	.make_us_list-service {
+		display: flex;
+		justify-content: center;
+	}
+
+	.make_us_left_button {
+		text-align: center;
+	}
+
+	/* ====================== Plan start=========================== */
+	#plan {
+		padding-top: 48px;
+		padding-bottom: 48px;
+	}
+
+	.plan_header h4 {
+		font-size: 25px;
+		line-height: 36px;
+	}
+
+	.plan_header p {
+		margin-top: 16px;
+		font-size: 13px;
+		margin: 0 0;
+	}
+
+	.plan_button {
+		margin-top: 24px;
+	}
+
+	.plan_service_parent {
+		margin-top: 32px;
+	}
+
+	.plan_service {
+		margin-bottom: 24px;
+	}
+
+	/* ====================== Testimonial start =========================== */
+	#testimonial {
+		padding-bottom: 80px;
+	}
+
+	.testimonial_header h4 {
+		font-size: 41px;
+		line-height: 53px;
+	}
+
+	.quotation::after {
+		width: 432px;
+	}
+
+	.testimonial_items {
+		margin-bottom: 24px;
+	}
+
+	.testimonial_items p {
+		font-size: 16px;
+	}
+
+	/* ====================== Footer start=========================== */
+
+	#footer {
+		padding-top: 83px;
+		padding-bottom: 32px;
+	}
+
+	.footer_left p {
+		font-size: 13px;
+	}
+
+	.footer_lists {
+		margin-top: 32px;
+	}
+
+	.copy_right {
+		margin-top: 40px;
+		width: 480px;
+	}
+
 }
 
 /* ============================================================// Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
-  .navbar-toggler {
-    border: none;
-  }
+	.navbar-toggler {
+		border: none;
+	}
 
-  .navbar-toggler:focus {
-    box-shadow: none;
-  }
+	.navbar-toggler:focus {
+		box-shadow: none;
+	}
 
-  #banner {
-    padding-top: 12px;
-  }
+	#banner {
+		padding-top: 12px;
+	}
 
-  .banner_right {
-    position: relative;
-    height: 440px;
-    width: 626px;
-    margin-left: auto;
-  }
+	.banner_right {
+		position: relative;
+		height: 440px;
+		width: 626px;
+		margin-left: auto;
+	}
 
-  .banner_feature {
-    transform: scale(0.8);
-    top: 40%;
-  }
+	.banner_feature {
+		transform: scale(0.8);
+		top: 40%;
+	}
 
-  .banner_left h1 {
-    font-size: 50px;
-    line-height: 60px;
-    margin-top: 26px;
-  }
+	.banner_left h1 {
+		font-size: 50px;
+		line-height: 60px;
+		margin-top: 26px;
+	}
 
-  .banner_left p {
-    font-size: 20px;
-    line-height: 26px;
-    padding-right: 0;
-  }
+	.banner_left p {
+		font-size: 20px;
+		line-height: 26px;
+		padding-right: 0;
+	}
 
-  .banner_button {
-    margin-top: 26px;
-    display: flex;
-    column-gap: 16px;
-    justify-content: center;
-  }
+	.banner_button {
+		margin-top: 26px;
+		display: flex;
+		column-gap: 16px;
+		justify-content: center;
+	}
 
-  .number_users {
-    justify-content: center;
-  }
-  .number_users strong {
-    font-size: 36px;
-  }
-  /* ====================================== Make Us start============= 576px an up ============== */
-  .make_us_left h4 {
-    font-size: 28px;
-    line-height: 36px;
-    text-align: center;
-    margin-top: 24px;
-    margin-bottom: 16px;
-  }
-  .make_us_left p {
-    padding-left: 130px;
-    text-align: center;
-  }
-  .make_us_list-service {
-    display: flex;
-    justify-content: center;
-  }
-  .make_us_left_button {
-    text-align: center;
-  }
-  /* ====================== Plan start============= >=575px ============== */
-  #plan {
-    padding-top: 48px;
-    padding-bottom: 48px;
-  }
+	.number_users {
+		justify-content: center;
+	}
 
-  .plan_header h4 {
-    font-size: 25px;
-    line-height: 36px;
-  }
-  .plan_header p {
-    margin-top: 16px;
-    font-size: 13px;
-    margin: 0 0;
-  }
-  .plan_button {
-    margin-top: 24px;
-  }
-  .plan_service_parent {
-    margin-top: 32px;
-  }
-  .plan_service {
-    margin-bottom: 24px;
-  }
+	.number_users strong {
+		font-size: 36px;
+	}
+
+	/* ====================================== Make Us start============= 576px an up ============== */
+	.make_us_left h4 {
+		font-size: 28px;
+		line-height: 36px;
+		text-align: center;
+		margin-top: 24px;
+		margin-bottom: 16px;
+	}
+
+	.make_us_left p {
+		padding-left: 130px;
+		text-align: center;
+	}
+
+	.make_us_list-service {
+		display: flex;
+		justify-content: center;
+	}
+
+	.make_us_left_button {
+		text-align: center;
+	}
+
+	/* ====================== Plan start============= >=575px ============== */
+	#plan {
+		padding-top: 48px;
+		padding-bottom: 48px;
+	}
+
+	.plan_header h4 {
+		font-size: 25px;
+		line-height: 36px;
+	}
+
+	.plan_header p {
+		margin-top: 16px;
+		font-size: 13px;
+		margin: 0 0;
+	}
+
+	.plan_button {
+		margin-top: 24px;
+	}
+
+	.plan_service_parent {
+		margin-top: 32px;
+	}
+
+	.plan_service {
+		margin-bottom: 24px;
+	}
+
+	/* ====================== Testimonial start=========================== */
+	#testimonial {
+		padding-bottom: 80px;
+	}
+
+	.testimonial_header h4 {
+		font-size: 55px;
+		line-height: 60px;
+		text-align: center;
+	}
+
+	.quotation::after {
+		width: 599px;
+	}
+
+	.testimonial_items {
+		margin-bottom: 24px;
+	}
+
+	.testimonial_items p {
+		font-size: 19px;
+	}
+
+	/* ====================== Footer start=========================== */
+
+	#footer {
+		padding-top: 70px;
+		padding-bottom: 50px;
+	}
+
+	.footer_lists {
+		margin-top: 32px;
+	}
+
+	.footer_left p {
+		font-size: 19px;
+	}
+
 }
 
-/* ================================= testimonial responsive start ======================================== */
-@media (max-width: 575px) {
-  #testimonial {
-    padding-bottom: 80px;
-  }
-
-  .testimonial_header h4 {
-    font-size: 28px;
-    line-height: 36px;
-    text-align: center;
-  }
-
-  .quotation::after {
-    width: 253px;
-  }
-
-  .testimonial_items {
-    margin-bottom: 24px;
-  }
-
-  .testimonial_items p {
-    font-size: 13px;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 767px) {
-  #testimonial {
-    padding-bottom: 80px;
-  }
-
-  .testimonial_header h4 {
-    font-size: 41px;
-    line-height: 53px;
-  }
-
-  .quotation::after {
-    width: 432px;
-  }
-  .testimonial_items {
-    margin-bottom: 24px;
-  }
-
-  .testimonial_items p {
-    font-size: 16px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  #testimonial {
-    padding-bottom: 80px;
-  }
-
-  .testimonial_header h4 {
-    font-size: 55px;
-    line-height: 60px;
-    text-align: center;
-  }
-  .quotation::after {
-    width: 599px;
-  }
-  .testimonial_items {
-    margin-bottom: 24px;
-  }
-
-  .testimonial_items p {
-    font-size: 19px;
-  }
-}
+/* ============================================================// Medium devices (tablets, 768px and up) */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  #testimonial {
-    padding-bottom: 95px;
-  }
+	#testimonial {
+		padding-bottom: 95px;
+	}
 
-  .testimonial_header h4 {
-    font-size: 28px;
-    line-height: 36px;
-  }
+	.testimonial_header h4 {
+		font-size: 28px;
+		line-height: 36px;
+	}
 
-  .quotation::after {
-    width: 213px;
-  }
+	.quotation::after {
+		width: 213px;
+	}
 
-  .testimonial_items p {
-    font-size: 15px;
-  }
-  .reviews .r-details h6 {
-    font-size: 15px;
-  }
-  .reviews .r-details span {
-    font-size: 14px;
-  }
+	.testimonial_items p {
+		font-size: 15px;
+	}
+
+	.reviews .r-details h6 {
+		font-size: 15px;
+	}
+
+	.reviews .r-details span {
+		font-size: 14px;
+	}
+
+	.plan_service h4 {
+		font-size: 31px;
+	}
+
+	.footer_left p {
+		font-size: 14px;
+		line-height: 24px;
+	}
 }
-
-/* ================================= testimonial responsive end ======================================== */
-/* ================================= footer responsive start ======================================== */
-@media (max-width: 575px) {
-  #footer {
-    padding-top: 83px;
-    padding-bottom: 32px;
-  }
-  .footer_left p {
-    font-size: 13px;
-  }
-  .footer_lists {
-    margin-top: 32px;
-  }
-  .copy_right {
-    margin-top: 32px;
-    width: 327px;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 767px) {
-  #footer {
-    padding-top: 83px;
-    padding-bottom: 32px;
-  }
-  .footer_left p {
-    font-size: 13px;
-  }
-  .footer_lists {
-    margin-top: 32px;
-  }
-
-  .copy_right {
-    margin-top: 40px;
-    width: 480px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  #footer {
-    padding-top: 70px;
-    padding-bottom: 50px;
-  }
-  .footer_lists {
-    margin-top: 32px;
-  }
-
-  .footer_left p {
-    font-size: 19px;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-  .footer_left p {
-    font-size: 14px;
-    line-height: 24px;
-  }
-}
-
-/* ================================= footer responsive end ======================================== */
