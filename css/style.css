@@ -1,391 +1,547 @@
 /* ======================== Common CSS Start ======================== */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-family: "Commissioner", sans-serif;
+body {
+  font-family: "Commissioner", sans-serif;
 }
 
-
-h1,h2,h3,h4,h5,h6{
-    line-height: 0.8;
-    margin-bottom: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 0.8;
+  margin-bottom: 0;
 }
 
-ul,ol{
-    list-style-type: none;
-    padding-left: 0;
-    margin-bottom: 0;
+ul,
+ol {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
+  
 }
 /* ======================== Common CSS End ======================== */
 /* ======================== Navbar CSS start ======================== */
-.navbar{
-padding: 30px 0;
+.navbar {
+  padding: 30px 0;
 }
 
-.navbar-brand{
-padding-top: 0;
-padding-bottom: 0;
-margin-right: 0;
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: 0;
 }
 
-.nav-item{
-padding: 0 14px;
+.nav-item {
+  padding: 0 14px;
 }
 
-.nav-link{
-   font-weight:400 ;
-   font-size: 16px;
-   color: #62636C;
-   transition: all linear 0.3s;
-   -webkit-transition: all linear 0.3s;
-   -moz-transition: all linear 0.3s;
-   -ms-transition: all linear 0.3s;
-   -o-transition: all linear 0.3s;
+.nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  color: #62636c;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
 }
 
-.nav-link:hover{
-    color: #7678ED;
+.nav-link:hover {
+  color: #7678ed;
 }
 
-.navbar_button button{
-    padding: 16px 32px;
-    font-weight:500 ;
-    font-size: 14px;
-    background: #7678ED;
-    color: #FFFFFF;
-    outline: none;
-    border: none;
-    transition: all linear 0.3s;
-    -webkit-transition: all linear 0.3s;
-    -moz-transition: all linear 0.3s;
-    -ms-transition: all linear 0.3s;
-    -o-transition: all linear 0.3s;
+.navbar_button button {
+  padding: 16px 32px;
+  font-weight: 500;
+  font-size: 14px;
+  background: #7678ed;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
 }
 
-.navbar_button button:hover{
-    background: #6062c9;
+.navbar_button button:hover {
+  background: #6062c9;
 }
 /* ======================== Navbar CSS End ======================== */
 /* ======================== Banner CSS Start ======================== */
-#banner{
-    padding-top: 50px;
+#banner {
+  padding-top: 50px;
 }
-.banner_left h1{
-    font-weight:600 ;
-    font-size: 56px;
-    line-height: 76px;
-    color: #13132C;
+.banner_left h1 {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 76px;
+  color: #13132c;
 }
-.banner_left p{
-    font-weight:400 ;
-    font-size: 16px;
-    line-height: 28px;
-    color: #898998;
-    padding-right: 215px;
-    margin-top: 16px;
-
-}
-
-.banner_button{
-    margin-top: 26px;
-    display: flex;
-    column-gap: 16px;
+.banner_left p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #898998;
+  padding-right: 215px;
+  margin-top: 16px;
 }
 
-.banner_button button{
-    padding: 18px 40px;
-    font-size: 16px;
-    font-weight:600 ;
-    color: #FFFFFF;
-    background: #7678ED;
-    outline: none;
-    border: none;
-    transition: all linear 0.3s;
-    -webkit-transition: all linear 0.3s;
-    -moz-transition: all linear 0.3s;
-    -ms-transition: all linear 0.3s;
-    -o-transition: all linear 0.3s;
+.banner_button {
+  margin-top: 26px;
+  display: flex;
+  column-gap: 16px;
 }
 
-.banner_button button:hover{
-    background: #6062c9;
+.banner_button button {
+  padding: 18px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background: #7678ed;
+  outline: none;
+  border: none;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.banner_button button:hover {
+  background: #6062c9;
 }
 
 .number_users {
-    display: flex;
-    column-gap: 24px;
-    margin-top: 36px;
+  display: flex;
+  column-gap: 24px;
+  margin-top: 36px;
 }
 
-.number_users strong{
-    font-weight:500 ;
-    font-size: 40px;
-    color: #F18701;
+.number_users strong {
+  font-weight: 500;
+  font-size: 40px;
+  color: #f18701;
 }
-.number_users span{
-    font-weight:400 ;
-    font-size: 16px;
-    color: #13132C;
-}
-
-.banner_right{
-    position: relative;
-    height: 560px;
+.number_users span {
+  font-weight: 400;
+  font-size: 16px;
+  color: #13132c;
 }
 
-.banner_right img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.banner_right {
+  position: relative;
+  height: 560px;
 }
 
-.banner_feature{
-    position: absolute;
-    top: 48%;
-    left: -100px;
+.banner_right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
+.banner_feature {
+  position: absolute;
+  top: 48%;
+  left: -100px;
 }
 /* ======================== Banner CSS End ======================== */
 
 /* ================================= makes us start ======================  */
-#make_us{
-    padding-top: 114px;
-    padding-bottom: 48px;
+#make_us {
+  padding-top: 114px;
+  padding-bottom: 48px;
 }
 
-.make_us_left h4{
-    color:  #13132C;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 70px; 
-    text-transform: capitalize;
-
+.make_us_left h4 {
+  color: #13132c;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px;
+  text-transform: capitalize;
 }
 
-.make_us_left p{
-    color:  #898998;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; 
-    padding-right: 130px;
-    /* margin-top: 16px;
+.make_us_left p {
+  color: #898998;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-right: 130px;
+  /* margin-top: 16px;
     margin-bottom: 32px; */
-
 }
 
-.make_us_left li{
-    display: flex;
-    align-items: center;
-    column-gap: 12px;
-    margin-bottom: 14px;
+.make_us_left li {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  margin-bottom: 14px;
 }
-.make_us_left_check{
-   width: 18px;
-   height: 18px;
-   color: #FFFFFF;
-   background: #F18701;
-   display: flex;
-   justify-content: center;
-   align-items: center; 
-   border-radius: 50%;
-   font-size: 7px;
-}
-
-.make_us_left_check span{
-    color: #13132C;
-    font-size: 16px;
-    font-weight: 400;
-}
-.make_us_left_button button{
-    margin-top: 12px;
-    padding: 16px 32px;
-    background: #7678ED;
-    border: none;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 500;
-    border-radius: 1px solid #7678ED;
-    transition: all linear 0.3s;
-
+.make_us_left_check {
+  width: 18px;
+  height: 18px;
+  color: #ffffff;
+  background: #f18701;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 7px;
 }
 
-.make_us_left_button button:hover{
-    background: #6062c9; 
- }
+.make_us_left_check span {
+  color: #13132c;
+  font-size: 16px;
+  font-weight: 400;
+}
+.make_us_left_button button {
+  margin-top: 12px;
+  padding: 16px 32px;
+  background: #7678ed;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 1px solid #7678ed;
+  transition: all linear 0.3s;
+}
 
- .make_us_right img{
-    width: 100%;
- }
+.make_us_left_button button:hover {
+  background: #6062c9;
+}
+
+.make_us_right img {
+  width: 100%;
+}
 /* ================================= makes us end ========================  */
 /* ================================= plan start ========================  */
-#plan{
-    padding-top: 114px;
-    padding-bottom: 114px;
+#plan {
+  padding-top: 114px;
+  padding-bottom: 114px;
 }
-.plan_header h4{
-    color: #13132C;
-    text-align: center;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 70px;
-    text-transform: capitalize;   
-}
-
-.plan_header p{
-    color: #898998;
-    text-align: center;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; 
-    margin: 0 125px;
-    margin-top: 10px;
+.plan_header h4 {
+  color: #13132c;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px;
+  text-transform: capitalize;
 }
 
-.plan_button{
-    margin-top: 36px;
-    display: flex;
-    column-gap: 24px;
-    justify-content: center;
+.plan_header p {
+  color: #898998;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 125px;
+  margin-top: 10px;
 }
 
-.plan_button button{
-    padding: 18px 40px;
-    font-size: 16px;
-    font-weight:600 ;
-    color: #898998;
-    background-color: transparent;
-    border: 1px solid #DDD;
-    transition: all linear 0.3s;
-    -webkit-transition: all linear 0.3s;
-    -moz-transition: all linear 0.3s;
-    -ms-transition: all linear 0.3s;
-    -o-transition: all linear 0.3s;
+.plan_button {
+  margin-top: 36px;
+  display: flex;
+  column-gap: 24px;
+  justify-content: center;
 }
 
-.plan_button button:hover{
-    background: #6062c9;
-    color: #fff;
-}
-.plan_service_parent{
-    margin-top: 48px;
-}
-.plan_service{
-    background: #fff;
-    padding: 24px;
-    box-shadow:10px 32px 72px rgba(15,13,35,0.1) ;
-    transition: all linear 0.3s;
+.plan_button button {
+  padding: 18px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #898998;
+  background-color: transparent;
+  border: 1px solid #ddd;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
 }
 
-.plan_service:hover{
-    background: #7678ED;
+.plan_button button:hover {
+  background: #6062c9;
+  color: #fff;
+}
+.plan_service_parent {
+  margin-top: 48px;
+}
+.plan_service {
+  background: #fff;
+  padding: 24px;
+  box-shadow: 10px 32px 72px rgba(15, 13, 35, 0.1);
+  transition: all linear 0.3s;
+}
+
+.plan_service:hover {
+  background: #7678ed;
 }
 
 .plan_service:hover h4,
 .plan_service:hover p,
 .plan_service:hover .price,
 .plan_service:hover .price strong,
-.plan_service:hover .plan_list_service ul li span{
-    color: #fff;
+.plan_service:hover .plan_list_service ul li span {
+  color: #fff;
 }
 
-.plan_service:hover .plan_left_check{
-    background:#fff; 
+.plan_service:hover .plan_left_check {
+  background: #fff;
 }
 
-.plan_service:hover .plan_left_check i{
-    color:#7678ED;; 
+.plan_service:hover .plan_left_check i {
+  color: #7678ed;
 }
 
-
-
-.plan_service h4{
-    color: #13132C;
-    font-size: 32px;
-    font-weight: 500;
-    margin-bottom: 24px;
+.plan_service h4 {
+  color: #13132c;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 24px;
 }
 
-.plan_service p{
-
-    color: #898998;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px; 
-    margin: 0 50px;
-    margin-bottom: 18px;
+.plan_service p {
+  color: #898998;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 50px;
+  margin-bottom: 18px;
 }
-.plan_service .price{
-    color: #898998;
-    text-align: right;
-    font-size: 16px;
-    font-weight: 400;
+.plan_service .price {
+  color: #898998;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
 }
-.plan_service .price strong{
-    color:  #13132C;
-    text-align: right;
-    font-size: 40px;
-    font-weight: 500;
-}
-
-.plan_service ul{
-    margin-top: 34px;
+.plan_service .price strong {
+  color: #13132c;
+  text-align: right;
+  font-size: 40px;
+  font-weight: 500;
 }
 
-.plan_service li{
-    display: flex;
-    align-items: center;
-    column-gap: 12px;
-    margin-bottom: 14px;
-}
-.plan_left_check{
-   width: 18px;
-   height: 18px;
-   color: #FFFFFF;
-   background: #7678ED;
-   display: flex;
-   justify-content: center;
-   align-items: center; 
-   border-radius: 50%;
-   font-size: 7px;
+.plan_service ul {
+  margin-top: 34px;
 }
 
-.plan_left_check span{
-    color: #13132C;
-    font-size: 16px;
-    font-weight: 400;
+.plan_service li {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  margin-bottom: 14px;
 }
-.learn_more{
-    margin-top: 32px;
-}
-.learn_more button{
-    width: 100%;
-    padding: 18px 40px;
-    font-size: 16px;
-    font-weight:600 ;
-    color: #7678ED;
-    background-color: transparent;
-    border: 1px solid #7678ED;
-    padding: 18px 0;
-    transition: all linear 0.3s;
-    -webkit-transition: all linear 0.3s;
-    -moz-transition: all linear 0.3s;
-    -ms-transition: all linear 0.3s;
-    -o-transition: all linear 0.3s;
+.plan_left_check {
+  width: 18px;
+  height: 18px;
+  color: #ffffff;
+  background: #7678ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 7px;
 }
 
-.plan_service:hover .learn_more button{
-   background-color: #fff;
+.plan_left_check span {
+  color: #13132c;
+  font-size: 16px;
+  font-weight: 400;
+}
+.learn_more {
+  margin-top: 32px;
+}
+.learn_more button {
+  width: 100%;
+  padding: 18px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #7678ed;
+  background-color: transparent;
+  border: 1px solid #7678ed;
+  padding: 18px 0;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.plan_service:hover .learn_more button {
+  background-color: #fff;
 }
 
 /* ================================= plan end ========================  */
+/* ================================= tesimonial css start ========================  */
+#testimonial{
+    padding-bottom: 140px;
+}
+.testimonial_header h4 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 70px;
+  color: #13132c;
+  text-transform: capitalize;
+}
+
+.testimonial_button button {
+  padding: 18px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #7678ed;
+  border: 1px solid #7678ed;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.testimonial_button button:hover {
+  background: #6062c9;
+  color: #fff;
+}
+
+.testimonial_parent{
+    margin-top: 56px;
+}
+
+.testimonial_items{
+    padding: 24px;
+    border: 1px solid #ddd;
+}
+
+.quotation{
+    position: relative;
+}
+
+.quotation::after{
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: 30px;
+    width: 298px;
+    height: 2px;
+    background-color: #ddd;
+}
+
+.testimonial_items p{
+    font-size: 17px;
+    font-style: italic;
+    line-height: 28px;
+    color: #62636C;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.reviews{
+    column-gap: 16px;
+}
+
+ .reviews .r_image{
+    width: 56px;
+    height: 56px;
+    background-color: #ddd;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.reviews .r-details h6{
+    font-weight: 500;
+    font-size: 18px;
+    color: #13132C;
+}
+
+.reviews .r-details span{
+    font-weight: 400;
+    font-size: 16px;
+    color: #898998;
+    display: inline-block;
+    margin-top: 10px;
+}
+/* ================================= tesimonial css end ========================  */
+/* ================================= footer css start ========================  */
+#footer {
+padding-top: 90px;
+padding-bottom: 80px;
+  background: #13132c;
+}
+
+.footer_left p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  opacity: 0.7;
+  margin-top: 24px;
+  padding-right: 45px;
+}
+
+.footer_lists h5{
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 32px;
+}
+.footer_lists ul li{
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.7;
+    margin-bottom: 24px;
+    
+}
+
+.footer_lists ul li {
+    color: #ffffff;
+}
+
+.footer_lists ul li a {
+    color: inherit;
+}
+
+.footer_lists ul li:last-child{
+    margin-bottom: 0;
+}
+
+.lists-icons-with-data{
+    column-gap: 8px;
+    padding-right: 0;
+}
+
+.lists-icons-with-data i{
+font-size: 24px;
+opacity: 0.7;
+}
+
+
+.copy_right{
+    border-top: 1px solid #FFFFFF;
+    opacity: 0.6;
+    margin-top: 48px;
+}
+
+.copy_right p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+/* ================================= footer css end ========================  */
