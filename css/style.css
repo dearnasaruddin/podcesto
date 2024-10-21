@@ -1,62 +1,69 @@
 /* ======================== Common CSS Start ======================== */
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: "Commissioner", sans-serif;
 }
 
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     line-height: 0.8;
     margin-bottom: 0;
 }
 
-ul,ol{
+ul,
+ol {
     list-style-type: none;
     padding-left: 0;
     margin-bottom: 0;
 }
 
-a{
+a {
     text-decoration: none;
 }
+
 /* ======================== Common CSS End ======================== */
 /* ======================== Navbar CSS start ======================== */
-.navbar{
-padding: 30px 0;
+.navbar {
+    padding: 30px 0;
 }
 
-.navbar-brand{
-padding-top: 0;
-padding-bottom: 0;
-margin-right: 0;
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0;
 }
 
-.nav-item{
-padding: 0 14px;
+.nav-item {
+    padding: 0 14px;
 }
 
-.nav-link{
-   font-weight:400 ;
-   font-size: 16px;
-   color: #62636C;
-   transition: all linear 0.3s;
-   -webkit-transition: all linear 0.3s;
-   -moz-transition: all linear 0.3s;
-   -ms-transition: all linear 0.3s;
-   -o-transition: all linear 0.3s;
+.nav-link {
+    font-weight: 400;
+    font-size: 16px;
+    color: #62636C;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: #7678ED;
 }
 
-.navbar_button button{
+.navbar_button button {
     padding: 16px 32px;
-    font-weight:500 ;
+    font-weight: 500;
     font-size: 14px;
     background: #7678ED;
     color: #FFFFFF;
@@ -69,23 +76,26 @@ padding: 0 14px;
     -o-transition: all linear 0.3s;
 }
 
-.navbar_button button:hover{
+.navbar_button button:hover {
     background: #6062c9;
 }
+
 /* ======================== Navbar CSS End ======================== */
 /* ======================== Banner CSS Start ======================== */
-#banner{
+#banner {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.banner_left h1{
-    font-weight:600 ;
+
+.banner_left h1 {
+    font-weight: 600;
     font-size: 56px;
     line-height: 76px;
     color: #13132C;
 }
-.banner_left p{
-    font-weight:400 ;
+
+.banner_left p {
+    font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     color: #898998;
@@ -94,16 +104,16 @@ padding: 0 14px;
 
 }
 
-.banner_button{
+.banner_button {
     margin-top: 26px;
     display: flex;
     column-gap: 16px;
 }
 
-.banner_button button{
+.banner_button button {
     padding: 18px 40px;
     font-size: 16px;
-    font-weight:600 ;
+    font-weight: 600;
     color: #FFFFFF;
     background: #7678ED;
     outline: none;
@@ -115,7 +125,7 @@ padding: 0 14px;
     -o-transition: all linear 0.3s;
 }
 
-.banner_button button:hover{
+.banner_button button:hover {
     background: #6062c9;
 }
 
@@ -125,34 +135,36 @@ padding: 0 14px;
     margin-top: 36px;
 }
 
-.number_users strong{
-    font-weight:500 ;
+.number_users strong {
+    font-weight: 500;
     font-size: 40px;
     color: #F18701;
 }
-.number_users span{
-    font-weight:400 ;
+
+.number_users span {
+    font-weight: 400;
     font-size: 16px;
     color: #13132C;
 }
 
-.banner_right{
+.banner_right {
     position: relative;
     height: 560px;
 }
 
-.banner_right img{
+.banner_right img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.banner_feature{
+.banner_feature {
     position: absolute;
     top: 48%;
     left: -100px;
 
 }
+
 /* ======================== Banner CSS End ======================== */
 
 
@@ -211,57 +223,59 @@ padding: 0 14px;
 
 
 /* ================================= makes us start ======================  */
-#make_us{
+#make_us {
     padding-top: 114px;
     padding-bottom: 48px;
 }
 
-.make_us_left h4{
-    color:  #13132C;
+.make_us_left h4 {
+    color: #13132C;
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
-    line-height: 70px; 
+    line-height: 70px;
     text-transform: capitalize;
 
 }
 
-.make_us_left p{
-    color:  #898998;
+.make_us_left p {
+    color: #898998;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; 
+    line-height: 24px;
     padding-right: 130px;
     /* margin-top: 16px;
     margin-bottom: 32px; */
 
 }
 
-.make_us_left li{
+.make_us_left li {
     display: flex;
     align-items: center;
     column-gap: 12px;
     margin-bottom: 14px;
 }
-.make_us_left_check{
-   width: 18px;
-   height: 18px;
-   color: #FFFFFF;
-   background: #F18701;
-   display: flex;
-   justify-content: center;
-   align-items: center; 
-   border-radius: 50%;
-   font-size: 7px;
+
+.make_us_left_check {
+    width: 18px;
+    height: 18px;
+    color: #FFFFFF;
+    background: #F18701;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 7px;
 }
 
-.make_us_left_check span{
+.make_us_left_check span {
     color: #13132C;
     font-size: 16px;
     font-weight: 400;
 }
-.make_us_left_button button{
+
+.make_us_left_button button {
     margin-top: 12px;
     padding: 16px 32px;
     background: #7678ED;
@@ -274,14 +288,151 @@ padding: 0 14px;
 
 }
 
-.make_us_left_button button:hover{
-    background: #6062c9; 
- }
+.make_us_left_button button:hover {
+    background: #6062c9;
+}
 
- .make_us_right img{
+.make_us_right img {
     width: 100%;
- }
+}
+
 /* ================================= makes us end ========================  */
+/* ================================= Popular Part Start ========================  */
+#popular {
+    background: #FAFAFA;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.popular-header h4 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #13132C;
+    line-height: 70px;
+    text-transform: capitalize;
+}
+
+.popular-header p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #13132C;
+    line-height: 24px;
+    /* max-width: 386px;
+    margin: 0 auto; */
+    padding: 0 30px;
+    margin-top: 24px;
+}
+
+.popular-tabs {
+    margin-top: 40px;
+}
+
+.popular-tab-button {
+    text-align: center;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+}
+
+.popular-tab-button button {
+    padding: 16px 32px;
+    background-color: transparent;
+    border: none;
+    color: #898989;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #dddddd;
+    transition: all linear .3s;
+}
+
+.popular-tab-button button:hover {
+    background-color: #6062c9;
+    color: #FFFFFF;
+}
+
+.popular-item {
+    background: #FFFFFF;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.popular-item-img {
+    width: 100%;
+    height: 234px;
+    background: #C4C4C4;
+}
+
+.popular-item-text {
+    margin-top: 24px;
+}
+
+.left-item-text h6 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #13132C;
+}
+
+.left-item-text ul {
+    font-size: 14px;
+    font-weight: 400;
+    color: #898998;
+    column-gap: 16px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.left-item-text ul li:last-child {
+    position: relative;
+}
+
+.left-item-text ul li:last-child::after {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: #7678ED;
+    content: "";
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+.play-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid #F2F2F2;
+    color: #6062c9;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs-more-btn {
+    margin-top: 48px;
+}
+
+.tabs-more-btn button {
+    padding: 16px 32px;
+    background-color: #6062c9;
+    border: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #6062c9;
+    transition: all linear .3s;
+}
+
+.tabs-more-btn button:hover {
+    background-color: transparent;
+    color: #6062c9;
+    border: 1px solid #6062c9;
+}
+
+
+/* ================================= Popular Part End ========================  */
 /* ================================= plan start ========================  */
 #plan{
     padding-top: 114px;
@@ -445,3 +596,5 @@ padding: 0 14px;
 }
 
 /* ================================= plan end ========================  */
+
+
