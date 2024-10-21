@@ -51,19 +51,40 @@
 
 	}
 
+	#popular {
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+
 	.popular-header h4 {
-		font-size: 24px;
-		font-weight: 600;
+		font-size: 28px;
 		line-height: 36px;
 	}
 
 	.popular-header p {
-		margin-top: 16px;
 		padding: 0;
 	}
 
-	.popular-tabs {
-		margin-top: 24px;
+	.popular-tab-button {
+		margin-bottom: 0;
+	}
+
+	.left button {
+		width: 141px;
+	}
+
+	.right button {
+		width: 131px;
+
+	}
+
+	.popular-tab-button .left button {
+		padding: 16px 31px;
+	}
+
+	.popular-tab-button .left button,
+	.popular-tab-button .right button {
+		margin-bottom: 16px;
 	}
 }
 
@@ -122,6 +143,44 @@
 		font-size: 36px;
 
 	}
+
+	#popular {
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+
+	.popular-header h4 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	.popular-header p {
+		padding: 0;
+	}
+
+	.popular-tab-button {
+		margin-bottom: 0;
+		flex-wrap: wrap;
+		row-gap: 16px;
+	}
+
+	.left button {
+		width: 141px;
+	}
+
+	.right button {
+		width: 131px;
+	}
+
+	.popular-tab-button .left button {
+		padding: 16px 31px;
+	}
+
+	.popular-tab-button .left button,
+	.popular-tab-button .right button {
+		margin-bottom: 16px;
+	}
+
 }
 
 
@@ -181,5 +240,81 @@
 	.number_users strong {
 		font-size: 36px;
 
+	}
+
+	#popular {
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+
+	.popular-header h4 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	.popular-header p {
+		padding: 0;
+	}
+
+	.popular-tab-button {
+		margin-bottom: 0;
+		flex-wrap: wrap;
+		row-gap: 16px;
+	}
+
+	.left button {
+		width: 141px;
+	}
+
+	.right button {
+		width: 131px;
+	}
+
+	.popular-tab-button .left button {
+		padding: 16px 31px;
+	}
+
+	.popular-tab-button .left button,
+	.popular-tab-button .right button {
+		margin-bottom: 16px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+	#popular {
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+
+	.popular-header h4 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	.popular-header p {
+		padding: 0;
+	}
+
+	.popular-tab-button {
+		flex-wrap: wrap;
+		row-gap: 16px;
+	}
+
+	.left button {
+		width: 141px;
+	}
+
+	.right button {
+		width: 131px;
+	}
+
+	.popular-tab-button .left button {
+		padding: 16px 31px;
+	}
+
+	.popular-tab-button .left button,
+	.popular-tab-button .right button {
+		margin-bottom: 16px;
 	}
 }

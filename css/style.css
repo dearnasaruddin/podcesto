@@ -273,6 +273,7 @@ a {
 }
 
 .popular-tab-button {
+    text-align: center;
     margin-bottom: 48px;
     display: flex;
     justify-content: center;
