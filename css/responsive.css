@@ -122,6 +122,44 @@
 		font-size: 13px;
 	}
 
+	/* ====================== Popular Part Start =========================== */
+	#popular {
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+
+	.popular-header h4 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	.popular-header p {
+		padding: 0;
+	}
+
+	.popular-tab-button {
+		margin-bottom: 20px;
+	}
+
+	.left button {
+		width: 141px;
+	}
+
+	.right button {
+		width: 131px;
+	}
+
+	.popular-tab-button .left button {
+		padding: 16px 31px;
+	}
+
+	.popular-tab-button .left button,
+	.popular-tab-button .right button {
+		margin-bottom: 16px;
+	}
+
+	/* ====================== Popular Part End =========================== */
+
 }
 
 /* =============================================================// Small devices (landscape phones, 576px and up) */
@@ -268,6 +306,46 @@
 		width: 480px;
 	}
 
+	/* ====================== Popular Part Start =========================== */
+	#popular {
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+
+	.popular-header h4 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	.popular-header p {
+		padding: 0;
+	}
+
+	.popular-tab-button {
+		margin-bottom: 20px;
+		flex-wrap: wrap;
+		row-gap: 16px;
+	}
+
+	.left button {
+		width: 141px;
+	}
+
+	.right button {
+		width: 131px;
+	}
+
+	.popular-tab-button .left button {
+		padding: 16px 31px;
+	}
+
+	.popular-tab-button .left button,
+	.popular-tab-button .right button {
+		margin-bottom: 16px;
+	}
+
+	/* ====================== Popular Part End =========================== */
+
 }
 
 /* ============================================================// Medium devices (tablets, 768px and up) */
@@ -413,6 +491,25 @@
 		font-size: 19px;
 	}
 
+	/* ====================== Popular Part Start =========================== */
+	#popular {
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+
+	.popular-header h4 {
+		font-size: 40px;
+		line-height: 36px;
+	}
+
+	.popular-tab-button {
+		margin-bottom: 20px;
+		flex-wrap: wrap;
+		row-gap: 16px;
+	}
+
+	/* ====================== Popular Part End =========================== */
+
 }
 
 /* ============================================================// large devices (tablets, 992px and up) */
@@ -451,4 +548,16 @@
 		font-size: 14px;
 		line-height: 24px;
 	}
+
+	/* ====================== Popular Part Start =========================== */
+	#popular {
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+
+	.popular-header h4 {
+		font-size: 42px;
+	}
+
+	/* ====================== Popular Part End =========================== */
 }
