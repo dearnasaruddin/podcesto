@@ -149,7 +149,7 @@ a {
 
 .banner_right {
     position: relative;
-    /* height: 560px; */
+    height: 520px;
 }
 
 .banner_right img {
@@ -160,7 +160,7 @@ a {
 
 .banner_feature {
     position: absolute;
-    top: 48%;
+    top: 45%;
     left: -100px;
 
 }
