@@ -47,6 +47,26 @@
 		font-size: 36px;
 	}
 
+	/* ====================== Feature start=========================== */
+	#podcast{
+		padding-top: 40px;
+		margin-top: 24px;
+	}
+	.podcast-header h4 {	
+		font-size: 26px;
+		line-height: 36px;
+	}
+	.podcast-header p {	
+		padding: 0;
+	}
+	.podcast-item{
+		margin-top: 30px;
+	}
+	.podcast-item-body p{
+		padding: 0 34px;
+	}
+
+
 	/* ====================== Make Us start=========================== */
 	.make_us_left h4 {
 		font-size: 28px;
@@ -228,6 +248,24 @@
 
 	.number_users strong {
 		font-size: 36px;
+	}
+	/* ====================== Feature start=========================== */
+	#podcast{
+		padding-top: 40px;
+		margin-top: 24px;
+	}
+	.podcast-header h4 {	
+		font-size: 26px;
+		line-height: 36px;
+	}
+	.podcast-header p {	
+		padding: 0;
+	}
+	.podcast-item{
+		margin-top: 30px;
+	}
+	.podcast-item-body p{
+		padding: 0 34px;
 	}
 
 	/* ====================================== Make Us start=========================== */
@@ -417,7 +455,25 @@
 	.number_users strong {
 		font-size: 36px;
 	}
-
+	/* ====================== Feature start=========================== */
+	#podcast{
+		padding-top: 40px;
+		margin-top: 24px;
+	}
+	.podcast-header h4 {	
+		font-size: 26px;
+		line-height: 36px;
+	}
+	.podcast-header p {	
+		padding: 0;
+	}
+	.podcast-item{
+		margin-top: 30px;
+	}
+	.podcast-item-body p{
+		padding: 0 34px;
+	}
+	
 	/* ====================================== Make Us start============= 576px an up ============== */
 	.make_us_left h4 {
 		font-size: 28px;
@@ -582,7 +638,24 @@
 		font-size: 13px;
 	}
 
-
+	/* ====================== Feature start=========================== */
+	#podcast{
+		padding-top: 40px;
+		margin-top: 24px;
+	}
+	.podcast-header h4 {	
+		font-size: 26px;
+		line-height: 36px;
+	}
+	.podcast-header p {	
+		padding: 0;
+	}
+	.podcast-item{
+		margin-top: 30px;
+	}
+	.podcast-item-body p{
+		padding: 0 34px;
+	}
 
 	/* ====================== Popular Part Start =========================== */
 	#popular {
