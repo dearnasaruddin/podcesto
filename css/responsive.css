@@ -178,6 +178,32 @@
 
 	/* ====================== Popular Part End =========================== */
 
+	/* ====================== Features Part start =========================== */
+	#features {
+		padding-top: 40px;
+		margin-top: 24px;
+	}
+
+	.podcast-header h4 {
+		font-size: 24px;
+		line-height: 36px;
+	}
+
+	.podcast-header p {
+		padding: 0;
+
+	}
+
+	.podcast-item {
+		margin-top: 32px;
+	}
+
+	.podcast-item-body p {
+		padding: 0 26px;
+	}
+
+	/* ====================== Features Part end =========================== */
+
 }
 
 /* =============================================================// Small devices (landscape phones, 576px and up) */
@@ -363,6 +389,32 @@
 
 	/* ====================== Popular Part End =========================== */
 
+	/* ====================== Features Part start =========================== */
+	#features {
+		padding-top: 40px;
+		margin-top: 24px;
+	}
+
+	.podcast-header h4 {
+		font-size: 32px;
+		line-height: 43px;
+	}
+
+	.podcast-header p {
+		padding: 0 10px;
+
+	}
+
+	.podcast-item {
+		margin-top: 20px;
+	}
+
+	.podcast-item-body h5 {
+		font-size: 18px;
+	}
+
+	/* ====================== Features Part end =========================== */
+
 }
 
 /* ============================================================// Medium devices (tablets, 768px and up) */
@@ -529,6 +581,28 @@
 
 	/* ====================== Popular Part End =========================== */
 
+	/* ====================== Features Part start =========================== */
+	#features {
+		padding-top: 40px;
+		margin-top: 24px;
+	}
+
+	.podcast-header h4 {
+		font-size: 30px;
+		line-height: 36px;
+	}
+
+	.podcast-header p {
+		padding: 0 20px;
+
+	}
+
+	.podcast-item {
+		margin-top: 20px;
+	}
+
+	/* ====================== Features Part end =========================== */
+
 	>>>>>>>nazmul-dev
 }
 
@@ -595,4 +669,30 @@
 	}
 
 	/* ====================== Popular Part End =========================== */
+
+	/* ====================== Features Part start =========================== */
+	#features {
+		padding-top: 40px;
+		margin-top: 24px;
+	}
+
+	.podcast-header h4 {
+		font-size: 42px;
+		line-height: 55px;
+	}
+
+	.podcast-header p {
+		padding: 0 15px;
+
+	}
+
+	.podcast-item {
+		padding: 24px 17px;
+	}
+
+	.podcast-item-body h5 {
+		font-size: 18px;
+	}
+
+	/* ====================== Features Part end =========================== */
 }
