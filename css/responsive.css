@@ -5,6 +5,14 @@
 		border: none;
 	}
 
+	.navbar-nav {
+		text-align: center;
+	}
+
+	.navbar_button{
+		text-align: center;
+	}
+
 	.navbar-toggler:focus {
 		box-shadow: none;
 	}
@@ -216,6 +224,14 @@
 		box-shadow: none;
 	}
 
+	.navbar-nav {
+		text-align: center;
+	}
+
+	.navbar_button{
+		text-align: center;
+	}
+
 	#banner {
 		padding-top: 2px;
 	}
@@ -425,6 +441,14 @@
 
 	.navbar-toggler:focus {
 		box-shadow: none;
+	}
+
+	.navbar-nav {
+		text-align: center;
+	}
+
+	.navbar_button{
+		text-align: center;
 	}
 
 	#banner {
